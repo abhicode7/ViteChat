@@ -7,6 +7,7 @@ dotenv.config();
 
 export default {
   plugins: [react()],
+  base: '/ViteChat/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
