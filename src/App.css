@@ -1,0 +1,21 @@
+.user {
+    width: auto;
+    max-width: 60%; 
+    margin-left: auto;
+    text-align: end;
+    /* word-break: break-all;  */
+    word-wrap: break-word;
+  }
+  
+  .bot {
+    width: auto;
+    max-width: 60%; 
+    margin-right: auto;
+    text-align: start;
+    /* word-break: break-all;  */
+    word-wrap: break-word;
+  }
+  
+  /* .chatheads>* {
+    width: auto !important;
+  } */
