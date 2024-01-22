@@ -24,7 +24,7 @@ const Root = () => {
   return (
     <React.StrictMode>
       <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
-        <main className='h-screen'>
+        <main className='h-screen-with-url-bar'>
           <App />
         </main>
       </ThemeProvider>
