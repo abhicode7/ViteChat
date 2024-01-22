@@ -5,6 +5,9 @@ on:
     branches:
       - main
 
+env:
+  VITE_API_KEY: ${{ secrets.VITE_API_KEY }}
+
 jobs:
   build:
     name: Build
@@ -20,7 +23,7 @@ jobs:
           node-version: 16
 
       - name: Install dependencies
-        run: npm install
+        uses: bahmutov/npm-install@v1
 
       - name: Build project
         run: npm run build
@@ -49,4 +52,3 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
-          VITE_API_KEY: ${{ secrets.VITE_API_KEY }}

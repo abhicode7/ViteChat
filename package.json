@@ -2,7 +2,7 @@
   "name": "vitechat",
   "private": true,
   "version": "0.0.0",
-  "homepage":"vite-chat-ah36jhf3r-abhiroops-projects.vercel.app",
+  "homepage":"./",
   "type": "module",
   "scripts": {
     "dev": "vite",
