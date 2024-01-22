@@ -74,3 +74,9 @@
     @apply bg-background text-foreground;
   }
 }
+
+/* styles/globals.css */
+.h-screen-with-url-bar {
+  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
+}
