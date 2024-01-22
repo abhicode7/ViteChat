@@ -204,7 +204,7 @@ const App = () => {
 
 
     return (
-        <div className="flex flex-col p-4 sm:p-8 md:p-16 lg:p-20 xl:px-40 xl:py-20 items-center justify-center min-h-screen h-full">
+        <div className="flex flex-col p-4 sm:p-8 md:p-16 lg:p-20 xl:px-40 xl:py-20 items-center justify-center h-full">
             <div className="chat-container flex flex-col h-full w-full">
                 <div className="chat-messages bg-slate-900 flex-grow rounded-md max-h-full overflow-auto">
 
