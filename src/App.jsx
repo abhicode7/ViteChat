@@ -33,7 +33,7 @@ const App = () => {
         } = await import("@google/generative-ai");
 
         const MODEL_NAME = "gemini-pro";
-        // const API_KEY = import.meta.env.VITE_API_KEY || import.meta.env.VITE_API_KEY_DEV;
+        const API_KEY = import.meta.env.VITE_GOOGLE || import.meta.env.VITE_GOOGLE_DEV;
 
 
         async function run() {
